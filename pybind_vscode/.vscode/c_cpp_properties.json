@@ -1,0 +1,38 @@
+{
+"configurations": [
+{
+"name": "Mac",
+"intelliSenseMode": "macos-clang-x64",
+"compilerPath": "/usr/bin/clang++",
+"cStandard": "c17",
+"cppStandard": "c++17",
+
+
+"includePath": [
+"${workspaceFolder}/**",
+
+
+// Python include - adjust version if required
+"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pybind11/include",
+
+
+// pybind11 include - adjust version path if required
+"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pybind11/include",
+
+"/usr/local/include",
+"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"
+],
+
+
+
+"macFrameworkPath": [
+"/System/Library/Frameworks",
+"/Library/Frameworks"
+],
+
+
+"defines": []
+}
+],
+"version": 4
+}
