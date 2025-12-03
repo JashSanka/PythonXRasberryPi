@@ -1,0 +1,17 @@
+{
+"version": "2.0.0",
+"tasks": [
+{
+"label": "build: pybind11 (inplace)",
+"type": "shell",
+"command": "python3",
+"args": [
+"setup.py",
+"build_ext",
+"--inplace"
+],
+"group": "build",
+"problemMatcher": []
+}
+]
+}
